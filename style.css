@@ -1,0 +1,38 @@
+#active {
+  color:orange;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 165px 1fr;
+}
+#grid ol {
+  padding-left: 25px;
+}
+body {
+  margin: 5px;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 3px solid gray;
+  margin: 0;
+  padding: 25px;
+}
+ol {
+  border-right: 3px solid gray;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+@media (max-width:650px) {
+  #grid {
+    display: block;
+  }
+    ol {
+      border-right: none;
+  }
+}
